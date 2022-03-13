@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+          @font-face {
+  font-family: "Outfit";
+  src: url("https://fonts.google.com/specimen/Outfit");
+}
+
+    body {
+      box-sizing: border-box;
+      text-align: center;
+      background-color:  hsl(212, 45%, 89%);
+      font-size: 15px;
+      font-family: "Outfit";
+/*      - Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .container  {
+      max-width: 300px;
+      display: flex;
+      align-items: center;  
+      height: 90vh;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px 20px;   
+      box-shadow: 0 8px 8px 0 rgba(0,0,0,0.3);
+    }
+
+    img {
+      width: 100%;
+      object-fit: fill;
+      border-radius: 20px;
+    }
+
+    .card-text {
+      width: 80%;
+      margin: 0 auto;
+      color: hsl(218, 44%, 22%);
+      font-weight: 700;
+    }
+
+    .card-text p {
+      color: hsl(220, 15%, 55%);
+      font-weight: 400;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="card">
+    
+        <img src="/images/image-qr-code.png" alt="QR Code" class="qrc">
+        <div class="card-text">
+          <h2>  Improve your front-end skills by building projects</h1>
+
+          <p>  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
+      </div>
+  </div>
+  </div>  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">robrajcs</a>.
+  </div>
+  <div></div>
+</body>
+</html>
